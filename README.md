@@ -3,18 +3,20 @@ Ha szeretnél partnerprogramot futtatni és nem egyből a SalesForm rendelési �
 ajánlásával jött és amíg él a látogató gépén a süti, addig tudni fogja rendeléskor, hogy kihez kötődött.
 
 
-# linkelve.js
-Azok a HTML sablonok, amiket bemásolhatsz a SalesForm szoftveredbe, Forráskód nézetben
-Ezeket a sablonokat megtalálod a sablonok menüpontban is a szövegbeviteli részeken.
+# urlapra.js
 
-# Sikeres fizetés oldal
-Előnézet: https://f.bartfaibalazs.hu/index/koszonjuk/success
+Ezt akkor használd, ha rendelési gomb van az oldalon, ami a SalesForm rendelési űrlapra visz
+
+Mindig a </body> záró tag elé kell rakni.
+
+A kód elmenti sütibe az utm_source taget és hozzáfűzi minden olyan linkhez aminek a class része tartalmazza ezt: aff-link
+
+Így a OPT-In oldalra viszed és feliratkozik egy e-mail sorozatra és csak később (napok múlva) vásárol, akkor is meg tudni fogja melyik parter hozta a vásárlást.
+Mindig az első érinté számít vagyis, hiába kattint később másik partneri linkre, mindig az elsőhöz írja jóvá a vásárlást.
+
 
 ## Használata:
-- A marketing beállítások menüpontban
-- Köszönő oldalt választod
-- Legörgetsz a sikeres fizetés esetén részhez
-- Kattintasz a forráskód gombra a szerkesztő sávon
-- Bemásolod azt a kódot
-- Kattintasz a rendben gombra és máris készre tudod szerkeszteni
-- Ne felejtsd el menteni és megnézni, hogy milyen lett
+- nyisd meg a js fájlt
+- A tartalmát másold be a megfelelő oldal (vagy mindegyik oldal) záró body tag elé
+- Ha rendelési gomb van az oldalon, ami a rendelési űrlapra visz, akkor a gomb class tartalmazza ezt: aff-link
+- 
