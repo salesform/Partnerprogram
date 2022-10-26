@@ -19,4 +19,19 @@ Mindig az első érinté számít vagyis, hiába kattint később másik partner
 - nyisd meg a js fájlt
 - A tartalmát másold be a megfelelő oldal (vagy mindegyik oldal) záró body tag elé
 - Ha rendelési gomb van az oldalon, ami a rendelési űrlapra visz, akkor a gomb class tartalmazza ezt: aff-link
-- 
+ 
+ 
+ # beagyazva.js
+
+Ezt akkor használd, ha beágyaztad a rendelési űrlapot a honlapodba.
+
+A kód hozzáfűzi az Iframe-hez a partneri azonosítót, ha az Iframe ID tartalmazza ezt: aff
+
+
+
+## Használata:
+- nyisd meg a js fájlt
+- A tartalmát másold be a megfelelő oldal (vagy mindegyik oldal) záró body tag elé
+- Az Iframe ID tartalmazza ezt: aff
+
+
